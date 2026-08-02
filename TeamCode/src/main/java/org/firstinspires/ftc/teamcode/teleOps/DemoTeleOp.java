@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode.teleOps;
 
 
 import com.qualcomm.hardware.lynx.LynxModule;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -9,6 +10,7 @@ import org.firstinspires.ftc.teamcode.subsystems.Intake;
 
 import java.util.List;
 
+@Disabled
 @TeleOp(name = "Test Tele")
 public class DemoTeleOp extends OpMode {
     //subsytems
